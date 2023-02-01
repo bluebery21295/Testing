@@ -6,8 +6,11 @@ for i in `ls $path`
 do
   if [ -x $i ]
   then 
-	let "exec = exec+1"; echo "$i" >>list_exe.txt
+	let "exec = exec+1";echo "$i" >>list_exe.txt
   else 
 	let "pas_ex = pas_ex +1"; echo "$i" >> list_pas_ex.txt 
   fi
 done
+
+echo "Le nombre des fichiers executables est $exec"
+echo "le nombre des fichiers inexecutables est $pas_ex"
