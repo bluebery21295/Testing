@@ -1,16 +1,20 @@
 #!bin/bash/
 exec=0
 pas_ex=0
-path=/home/project/
-for i in `ls $path` 
+dossier=0
+for i in `ls` 
 do
-  if [ -x $i ]
+  if [ -f $i ] && [ -x $i ]
   then 
-	let "exec = exec+1";echo "$i" >>list_exe.txt
-  else 
-	let "pas_ex = pas_ex +1"; echo "$i" >> list_pas_ex.txt 
+	let "exec = exec+1"; echo "$i" >>list_fichier_exe.txt
+  elif [ -f $i ] && [ ! -x $i ] 
+  then
+	let "pas_ex = pas_ex +1"; echo "$i" >> list_fichier_pas_ex.txt 
+  else
+	let "dossier=dossier +1"; echo "$i" >>list_dossier.txt
   fi
 done
 
 echo "Le nombre des fichiers executables est $exec"
 echo "le nombre des fichiers inexecutables est $pas_ex"
+echo "le nombre des dossiers est $dossier"
