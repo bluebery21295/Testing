@@ -2,7 +2,7 @@
 alive=0
 dead=0
 ip_prefix=`echo $(hostname -i) | cut -d "." -f1-3`
-ip=`echo $ip_prefix.{223..225}`
+ip=`echo $ip_prefix.{1..225}`
 echo $ip
 for i in $ip
 do 
