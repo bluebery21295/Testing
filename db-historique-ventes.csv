@@ -1,0 +1,57 @@
+Prix au m2,Type de matériaux utilisés,Localisation de l'intervention,Code postal,Surface du ravalement (m2),Nombre d'opérateurs
+60,Crépi,Paris,75001,150,3
+70,Revêtement en PVC,Marseille,13001,100,2
+80,Bardage en bois,Bordeaux,33000,200,4
+55,Béton,Lyon,69001,120,2
+90,Crépi,Nice,6000,250,5
+75,Revêtement en PVC,Toulouse,31000,180,3
+65,Crépi,Lille,59000,80,2
+85,Bardage en bois,Strasbourg,67000,150,3
+50,Revêtement en PVC,Nantes,44000,220,4
+70,Béton,Montpellier,34000,130,2
+60,Crépi,Rennes,35000,90,2
+80,Bardage en bois,Grenoble,38000,180,4
+75,Revêtement en PVC,Dijon,21000,110,2
+55,Béton,Nancy,54000,160,3
+90,Crépi,Cannes,6400,300,6
+75,Revêtement en PVC,Brest,29200,210,4
+65,Crépi,Rouen,76000,120,2
+85,Bardage en bois,Nîmes,30000,190,3
+50,Revêtement en PVC,Tours,37000,130,2
+70,Béton,Clermont-Ferrand,63000,150,3
+60,Crépi,Besançon,25000,70,2
+50,Brique,Lorient,56100,100,2
+70,Enduit,Le Mans,72000,200,4
+80,Béton,Saint-Denis,93200,150,3
+55,Revêtement en PVC,Évreux,27000,120,2
+90,Brique,Aubagne,13400,250,5
+75,Enduit,Salon-de-Provence,13300,180,3
+65,Béton,Nîmes,30000,80,2
+85,Revêtement en PVC,Besançon,25000,150,3
+60,Brique,Châteauroux,36000,220,4
+70,Enduit,Saint-Brieuc,22000,130,2
+80,Béton,Avignon,84000,90,2
+75,Revêtement en PVC,Saint-Malo,35400,210,4
+55,Brique,La Roche-sur-Yon,85000,160,3
+90,Enduit,Le Creusot,71200,300,6
+75,Béton,Châlons-en-Champagne,51000,120,2
+65,Enduit,Valence,26000,200,3
+70,Bois,La Rochelle,17000,150,3
+90,Béton,Béziers,34500,180,4
+80,Brique,Auxerre,89000,120,2
+55,Revêtement en PVC,Annemasse,74100,100,2
+75,Enduit,Bastia,20600,220,4
+60,Bois,Agen,47000,130,2
+85,Béton,Épinal,88000,190,4
+50,Brique,Chartres,28000,160,3
+70,Revêtement en PVC,Colmar,68000,170,3
+75,Enduit,Guéret,23000,120,2
+65,Bois,Saintes,17100,140,3
+85,Béton,Saint-Lô,50000,150,3
+90,Brique,Cavaillon,84300,250,5
+75,Revêtement en PVC,Pau,64000,200,4
+55,Enduit,Les Sables-d'Olonne,85100,90,2
+80,Bois,Vienne,38200,180,3
+70,Béton,Saint-Quentin,2100,150,3
+60,Brique,Dieppe,76200,70,2
+50,Revêtement en PVC,Château-Thierry,2400,130,2
